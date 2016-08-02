@@ -1,4 +1,4 @@
-nav > img{
-	width:50%;
-	height:auto;
+.navbar-brand {
+   width: 30%;
+   height: 45px;
 }
