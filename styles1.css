@@ -11,3 +11,8 @@ body {
 	margin-bottom: 390px;
 	text-shadow: ;
 }
+@media only screen and (max-width: 480px) {
+   #social {
+      display: none;
+   }
+}
