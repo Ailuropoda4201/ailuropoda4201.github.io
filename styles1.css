@@ -11,14 +11,12 @@ body {
 	margin-bottom: 390px;
 	text-shadow: ;
 }
+#tooltip {
+	padding-bottom: 0px;
+	text-align:;
+}
 @media only screen and (max-width: 480px) {
    #social {
-      display:;
-      margin: 0px;
-      padding: 0px;
+      display: initial;
    }
-}
-#tooltip {
-	padding-bottom:0px;
-	text-align:center;
 }
