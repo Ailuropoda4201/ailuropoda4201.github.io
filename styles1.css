@@ -11,3 +11,6 @@ body {
 	margin-bottom: 320px;
 	text-shadow: 50px;
 }
+#twitter > h4 {
+	text-align: center;
+}
