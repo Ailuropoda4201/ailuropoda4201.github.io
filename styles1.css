@@ -16,22 +16,27 @@ body {
 }
 #youtube-title {
 	margin:0;
-	padding:0;
+	padding-bottom:10px;
+	font-size: 50px;
 }
-
-
-
+#youtube-video {
+	border-style: solid;
+}
+#Welcome {
+	padding-top: 20px;
+}
 
 @media only screen and (max-width: 480px) {
    #social {
       display: initial;
    }
-      #social-list {
+   #social-list {
       	list-style-type: none;
    		margin: 0;
    		padding: 0;
    		overflow: hidden;
-}
-      }
-
+	}
+	#youtube-video {
+		max-height: 300px;
+	}
 }
