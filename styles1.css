@@ -14,16 +14,10 @@ body {
 #tooltip {
 	padding-bottom: 0px;
 }
-#video-title {
-	margin-top: 0px;
-	margin-bottom: 20px;
-	padding-bottom: 20px;
-	padding-top: 0px;
+#youtube-title {
+	margin:0;
+	padding:0;
 }
-#youtube-video {
-	margin-top: 20px;
-}
-
 @media only screen and (max-width: 480px) {
    #social {
       display: initial;
