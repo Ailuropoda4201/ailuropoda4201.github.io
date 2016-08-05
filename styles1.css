@@ -17,8 +17,12 @@ body {
 #video-title {
 	margin-top: 0px;
 	margin-bottom: 20px;
+	padding-bottom: 20px;
+	padding-top: 0px;
 }
-
+#youtube-video {
+	margin-top: 20px;
+}
 
 @media only screen and (max-width: 480px) {
    #social {
