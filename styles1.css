@@ -18,9 +18,20 @@ body {
 	margin:0;
 	padding:0;
 }
+
+
+
+
 @media only screen and (max-width: 480px) {
    #social {
       display: initial;
    }
+      #social-list {
+      	list-style-type: none;
+   		margin: 0;
+   		padding: 0;
+   		overflow: hidden;
+}
+      }
 
 }
