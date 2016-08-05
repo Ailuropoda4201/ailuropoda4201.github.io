@@ -8,13 +8,16 @@ body {
 	padding-bottom: ;
 }
 .carousel-indicators {
-	margin-bottom: 390px;
+	margin-bottom: 1240px;
 	text-shadow: ;
 }
 #tooltip {
 	padding-bottom: 0px;
 }
-
+#video-title {
+	margin-top: 0px;
+	margin-bottom: 20px;
+}
 
 
 @media only screen and (max-width: 480px) {

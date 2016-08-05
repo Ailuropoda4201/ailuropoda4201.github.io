@@ -1,0 +1,26 @@
+1 Tower case
+https://www.amazon.com/Cooler-Master-N200-Computer-Mini-ITX/dp/B00CUZP0SU/ref=sr_1_5?s=pc&ie=UTF8&qid=1470339198&sr=1-5&keywords=micro+atx+case
+2 Mother board
+https://www.amazon.com/970-PRO-GAMING-AURA-Motherboards/dp/B01A33PHLA/ref=sr_1_2?s=pc&ie=UTF8&qid=1470339255&sr=1-2&keywords=asus+motherboard
+3 Processor
+https://www.amazon.com/Intel-I7-6700-FC-LGA14C-Processor-BX80662I76700/dp/B0136JONG8/ref=sr_1_2?s=pc&ie=UTF8&qid=1470339267&sr=1-2&keywords=i7
+4 Heat Sink
+https://www.amazon.com/Cooler-Master-Hyper-212-RR-212E-20PK-R2/dp/B005O65JXI/ref=pd_bxgy_147_img_2?ie=UTF8&psc=1&refRID=59S1SDN6SQG15A5VY1CX
+5 HDD 
+https://www.amazon.com/Blue-Cache-Desktop-Drive-WD10EZEX/dp/B0088PUEPK/ref=pd_bxgy_147_img_3?ie=UTF8&psc=1&refRID=59S1SDN6SQG15A5VY1CX
+6 Gfx
+https://www.amazon.com/EVGA-GeForce-Quieter-Graphics-04G-P4-2974-KR/dp/B00NVODXR4/ref=sr_1_1?s=pc&ie=UTF8&qid=1470339353&sr=1-1&keywords=970
+7 Ram , Memory
+https://www.amazon.com/Crucial-Ballistix-PC3-12800-240-Pin-BLS2KIT8G3D1609DS1S00/dp/B006YG9EEW/ref=sr_1_5?s=pc&ie=UTF8&qid=1470339378&sr=1-5&keywords=ram
+8 Power Supply
+https://www.amazon.com/EVGA-Continuous-Warranty-Supply-100-W1-0500-KR/dp/B00H33SFJU/ref=sr_1_2?s=pc&ie=UTF8&qid=1470339470&sr=1-2&keywords=power+supply
+9 DVD
+https://www.amazon.com/LG-Electronics-Internal-Optical-GH24NSC0B/dp/B00MOUBYDQ/ref=sr_1_6?s=pc&ie=UTF8&qid=1470339566&sr=1-6&keywords=dvd+rw
+10 Monitor
+https://www.amazon.com/Acer-R240HY-bidx-23-8-Inch-Widescreen/dp/B0148NNKTC/ref=sr_1_4?s=pc&ie=UTF8&qid=1470339717&sr=1-4&keywords=monitor
+11 Monitor (other option)
+https://www.amazon.com/dp/B01FG9WKNE/ref=twister_B00HV850KE?_encoding=UTF8&psc=1
+12 Keyboard
+http://www.corsair.com/en-us/k70-rapidfire-mechanical-gaming-keyboard-cherry-mx-speed-na
+13 Mouse
+http://www.corsair.com/en-us/sabre-rgb-gaming-mouse
