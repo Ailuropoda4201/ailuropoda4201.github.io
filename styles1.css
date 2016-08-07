@@ -25,6 +25,12 @@ body {
 #Welcome {
 	padding-top: 20px;
 }
+#build-list {
+	list-style-type: none;
+}
+
+
+
 
 @media only screen and (max-width: 480px) {
    #social {
