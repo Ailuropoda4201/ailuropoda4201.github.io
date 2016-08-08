@@ -17,10 +17,11 @@ body {
 #youtube-title {
 	margin:0;
 	padding-bottom:10px;
-	font-size: 50px;
+	font-size: 30px;
 }
-#youtube-video {
+#player {
 	border-style: solid;
+	border-color:#000000;
 }
 #Welcome {
 	padding-top: 20px;
@@ -47,7 +48,7 @@ body {
    		padding: 0;
    		overflow: hidden;
 	}
-	#youtube-video {
-		max-height: 300px;
+	#player {
+		max-width: 250px;
 	}
 }
