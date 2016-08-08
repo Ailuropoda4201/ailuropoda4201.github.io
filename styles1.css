@@ -29,14 +29,16 @@ body {
 #build-list {
 	list-style-type: none;
 }
-#images {
-	border-style: solid;
-	border-color: #ffffff;
 
+.item {
+	font-size: 10px;
 }
-#images:hover {
-	border-color: #000000;
+#carousel-title {
+	font-size: 15px;
 }
+
+
+
 
 @media only screen and (max-width: 480px) {
    #social {
