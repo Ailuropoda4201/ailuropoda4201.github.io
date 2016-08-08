@@ -30,7 +30,7 @@ body {
 	list-style-type: none;
 }
 
-.item {
+#myCarousel > .item {
 	font-size: 10px;
 }
 #carousel-title {
