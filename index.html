@@ -35,10 +35,11 @@
 						<li><a href="about.html">About Me</a></li>
 						<li><a href="gallery.html">Gallery</a></li>
 						<li><a href="build.html">Build</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
 					</ul>
 					<ul id="social-list" class="nav navbar-nav navbar-right">
                 		<li id="social"><a href="https://facebook.com/jdkphotog" data-placement="bottom" data-toggle="tooltip" id="tooltip" title="Check out my Facebook!" id="tooltip"><span class="socicon-facebook"></span></a></li>
-               			<li id="social"><a href="https://twitter.com/jaydenkimberlin"><span class="socicon-twitter"></span></a></li>
+               			<li id="social"><a href="https://twitter.com/jaydenkimberlin" data-placement="bottom" data-toggle="tooltip" id="tooltip" title="Check out my Twitter!" id="tooltip"><span class="socicon-twitter"></span></a></li>
           			</ul>
 				</div>
 			</div>
@@ -126,7 +127,7 @@ $('.carousel').carousel({
       var player;
       function onYouTubeIframeAPIReady() {
         player = new YT.Player('player', {
-          height: '390',
+          height: '560',
           width: '640',
           videoId: 'yEwhXDrZu1c',
           events: {
@@ -172,11 +173,10 @@ $('.carousel').carousel({
 		   <h6>&copy; Jayden Kimberlin 2016</h6>
 		</div>
 		<!-- End of Footer -->
-			<script>
-$(document).ready(function(){
-    $('[data-toggle="tooltip"]').tooltip(); 
-});
-</script>
+          <script>
+            $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip(); 
+            });
+          </script>
 	</body>
-
 </html>
