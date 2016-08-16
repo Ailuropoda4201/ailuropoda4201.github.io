@@ -11,6 +11,8 @@ body {
     border-width:5px;
     font-family:Arial;
     background-position: center;
+    margin:0 auto;
+    padding:0 auto;
   }
     input {
     border-radius:50%;
