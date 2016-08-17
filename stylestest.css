@@ -1,4 +1,9 @@
 /*This is a document for navbar test*/
-#brand {
-	padding-top:0px;
+body {
+	background-image: url("background.jpg");
+}
+
+.navbar-brand {
+	padding-top:10;
+	margin-top: 10px;
 }
