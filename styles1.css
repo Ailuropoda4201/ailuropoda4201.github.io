@@ -36,9 +36,11 @@ body {
 #carousel-title {
 	font-size: 15px;
 }
-.container footer {
+#footer {
 	background-color:#ffffff;
+	border-radius:5px;
 }
+
 
 @media only screen and (max-width: 480px) {
    #social {
