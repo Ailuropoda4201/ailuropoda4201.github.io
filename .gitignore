@@ -1,2 +1,5 @@
 node_modules/..
+node_modules/.bin/..
 node_modules/.bin/dev-ip
+node_modules/.bin/browser-sync
+node_modules/.bin/browser-sync
