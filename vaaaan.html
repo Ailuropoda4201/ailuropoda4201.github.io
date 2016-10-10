@@ -48,6 +48,7 @@
   </div>
 </nav>
     <!-- End Navbar -->
+<div class="container">
   <script language="JavaScript">
     function play(theInput){ 
       var audio = "";
@@ -63,10 +64,24 @@
       audio.play();
     }
   </script>
+</div>
   <input type="button" class="btn btn-primary" value="nut" onclick="play('nut')">
   <input type="button" class="btn btn-danger" value="unnut" onclick="play('unnut')">
   <audio id="nutAudio" src="NUT3.mp3"></audio>
   <audio id="unnutAudio" src="unnutslow.mp3"></audio>
   <div id="imageContainer"></div>
+<div class="container">
+  <hr>
+</div>
+<!-- Footer Start -->
+  <div class="container text-center">
+    <img id="copyright" src="imgs/jaydenkimberlincopyright.jpg">
+    <h6 style="color:#ffffff">
+      <script language="JavaScript">
+          document.write(document.lastModified);
+        </script>
+    </h6>
+  </div>
+<!-- Footer End -->
 </body>
 </html>
