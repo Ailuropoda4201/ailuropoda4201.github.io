@@ -3,3 +3,12 @@ node_modules/.bin/..
 node_modules/.bin/dev-ip
 node_modules/.bin/browser-sync
 node_modules/.bin/browser-sync
+node_modules/.bin/browser-sync
+*.cmd
+node_modules/.bin/express
+*.js
+node_modules/accepts/README.md
+*.json
+*.md
+*.md
+*.md
