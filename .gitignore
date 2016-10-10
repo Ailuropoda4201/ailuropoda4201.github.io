@@ -12,3 +12,8 @@ node_modules/accepts/README.md
 *.md
 *.md
 *.md
+node_modules/ansi-styles/readme.md
+*.js
+*.js
+*.json
+node_modules/asn1/lib/ber/types.js
