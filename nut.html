@@ -51,12 +51,18 @@
 </nav>
     <!-- End Navbar -->
     <script>
-  function play(){
+    var clicks = 0;
+      function play(){
        var audio = document.getElementById("audio");
        audio.play();
-                 }
+       clicks += 1;
+       document.getElementById("clicks").innerHTML = clicks;
+       };
    </script>
-<input type="button" class="btn btn-primary" value="NUT"  onclick="play()">
+  <div style="text-align:right" class="container">
+    <p style="color:white">Nut Counter: <a id="clicks">0</a></p>
+  </div>
+<input type="button" class="btn btn-primary" value="NUT" onclick="play()">
 <audio id="audio" src="NUT3.mp3"></audio>
 <hr>
     <!-- Footer -->
