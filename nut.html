@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
-  <html>
+<html>
   <head>
-  <title>nut</title>
+    <title>nut</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://file.myfontastic.com/n6vo44Re5QaWo8oCKShBs7/icons.css" rel="stylesheet">
     <link rel="stylesheet" href="styles/styles1.css">
@@ -12,23 +12,22 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
   <body>
-      <!-- Start Bootswatch Navbar -->
-<nav class="navbar navbar-default navbar-static-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <span class="navbar-brand" style="padding: 3px 5px 0px 10px">
-        <img src="imgs/branding.png">
-      </span>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
+    <!-- Start Bootswatch Navbar -->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <span class="navbar-brand" style="padding: 3px 5px 0px 10px">
+            <img src="imgs/branding.png">
+          </span>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
             <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="contactme.html">Contact Me</a></li>
@@ -39,41 +38,45 @@
               <ul class="dropdown-menu">
                 <li class="active"><a href="nut.html">Nut Button</a></li>
                 <li><a href="vaaaan.html">Vaaaan</a></li></ul>
-    </ul>
-      <ul id="social-list" class="nav navbar-nav navbar-right">
+              </ul>
+              <ul id="social-list" class="nav navbar-nav navbar-right">
                 <li id="social"><a href="https://facebook.com/jdkphotog" data-placement="bottom" data-toggle="tooltip" id="tooltip" title="Check out my Facebook!" id="tooltip"><span class="socicon-facebook"></span></a></li>
                 <li id="social"><a href="https://twitter.com/jaydenkimberlin" data-placement="bottom" data-toggle="tooltip" id="tooltip" title="Check out my Twitter!" id="tooltip"><span class="socicon-twitter"></span></a></li>
-            </ul>
-        </li>
-      </ul>
-     </div>
-  </div>
-</nav>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- End Navbar -->
     <script>
     var clicks = 0;
-      function play(){
-       var audio = document.getElementById("audio");
-       audio.play();
-       clicks += 1;
-       document.getElementById("clicks").innerHTML = clicks;
-       };
-   </script>
-  <div style="text-align:right" class="container">
-    <p style="color:white">Nut Counter: <a id="clicks">0</a></p>
+    function play(){
+      var audio = document.getElementById("audio");
+      audio.play();
+      if(typeof(Storage) !== undefined) {
+        if (localStorage.clicks) {
+          localStorage.clicks = Number(localStorage.clicks)+1;
+        } else {
+          localStorage.clicks+1;
+        }
+        document.getElementById("result").innerHTML = "Nut Counter:" + localStorage.clicks;
+      }
+    };
+    </script>
+    <input type="button" class="btn btn-primary" value="NUT" onclick="play()">
+    <div style="color:white;" id="result"></div>
+  <audio id="audio" src="NUT3.mp3"></audio>
+  <hr>
+  <!-- Footer -->
+  <div class="container text-center">
+    <img id="copyright" src="imgs/jaydenkimberlincopyright.jpg">
+    <h6 style="color:#ffffff">
+    <script language="JavaScript">
+    document.write(document.lastModified);
+    </script>
+    </h6>
   </div>
-<input type="button" class="btn btn-primary" value="NUT" onclick="play()">
-<audio id="audio" src="NUT3.mp3"></audio>
-<hr>
-    <!-- Footer -->
-    <div class="container text-center">
-      <img id="copyright" src="imgs/jaydenkimberlincopyright.jpg">
-      <h6 style="color:#ffffff">
-        <script language="JavaScript">
-          document.write(document.lastModified);
-        </script>
-      </h6>
-    </div>
-    <!-- End of Footer -->
- </body>
- </html>
+  <!-- End of Footer -->
+</body>
+</html>
