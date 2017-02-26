@@ -65,6 +65,7 @@
       audio.play();
       if(localStorage.getItem("clicks"));
       document.getElementById("result").innerHTML = localStorage.getItem("clicks");
+      // else
       if(typeof(Storage) !== undefined) {
         if (localStorage.clicks) {
           localStorage.clicks = Number(localStorage.clicks)+1;
