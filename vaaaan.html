@@ -1,87 +1,86 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>vaaaaaaan</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-  <link href="css/navbar-fixed-side.css" rel="stylesheet" />
-	<link href="css/navbar-fixed-side.css" rel="stylesheet" />
-  <link href="styles/styles1.css" rel="stylesheet" />
-  <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-</head>
-<body>
+  <head>
+    <title>vaaaaaaan</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link href="css/navbar-fixed-side.css" rel="stylesheet" />
+    <link href="css/navbar-fixed-side.css" rel="stylesheet" />
+    <link href="styles/styles1.css" rel="stylesheet" />
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </head>
+  <body>
     <!-- Start Bootswatch Navbar -->
-<nav class="navbar navbar-default navbar-static-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-        <span class="sr-only">Toggle navigation</span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <span class="navbar-brand" style="padding: 3px 5px 0px 10px">
-        <img src="imgs/branding.png">
-      </span>
-    </div>
-
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-          <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="contactme.html">Contact Me</a></li>
-          <li><a href="gallery.html">Gallery</a></li>
-          <li><a href="build.html">Build</a></li>
-          <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Experiments <span class="caret"></span></a>
-          <ul class="dropdown-menu">
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          </button>
+          <span class="navbar-brand" style="padding: 3px 5px 0px 10px">
+            <img src="imgs/branding.png">
+          </span>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span></a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contactme.html">Contact Me</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Experiments <span class="caret"></span></a>
+              <ul class="dropdown-menu">
                 <li><a href="nut.html">Nut Button</a></li>
                 <li class="active"><a href="vaaaan.html">Vaaan</a></li></ul>
-          </ul>
-      <ul id="social-list" class="nav navbar-nav navbar-right">
+              </ul>
+              <ul id="social-list" class="nav navbar-nav navbar-right">
                 <li id="social"><a href="https://facebook.com/jdkphotog" data-placement="bottom" data-toggle="tooltip" id="tooltip" title="Check out my Facebook!" id="tooltip"><span class="socicon-facebook"></span></a></li>
                 <li id="social"><a href="https://twitter.com/jaydenkimberlin" data-placement="bottom" data-toggle="tooltip" id="tooltip" title="Check out my Twitter!" id="tooltip"><span class="socicon-twitter"></span></a></li>
-            </ul>
-        </li>
-      </ul>
-     </div>
-  </div>
-</nav>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
     <!-- End Navbar -->
-<div class="container">
-  <script language="JavaScript">
-    function play(theInput){ 
+    <div class="container">
+      <script language="JavaScript">
+      function play(theInput){
       var audio = "";
       
       if(theInput == "nut"){
-      	$("#imageContainer").append('<img src="nut.jpg" alt="NUT" /><br />');
-  		audio = document.getElementById("nutAudio");
+        $("#imageContainer").append('<img src="nut.jpg" alt="NUT" /><br />');
+          audio = document.getElementById("nutAudio");
       }
       else{
-      	$("#imageContainer").empty();
-      	audio = document.getElementById("unnutAudio");
+        $("#imageContainer").empty();
+        audio = document.getElementById("unnutAudio");
       }
       audio.play();
-    }
-  </script>
-</div>
-  <input type="button" class="btn btn-primary" value="nut" onclick="play('nut')">
-  <input type="button" class="btn btn-danger" value="unnut" onclick="play('unnut')">
+      }
+      </script>
+    </div>
+    <input type="button" class="btn btn-primary" value="nut" onclick="play('nut')">
+    <input type="button" class="btn btn-danger" value="unnut" onclick="play('unnut')">
   <audio id="nutAudio" src="NUT3.mp3"></audio>
-  <audio id="unnutAudio" src="unnutslow.mp3"></audio>
-  <div id="imageContainer"></div>
+<audio id="unnutAudio" src="unnutslow.mp3"></audio>
+<div id="imageContainer"></div>
 <div class="container">
   <hr>
 </div>
-<!-- Footer Start -->
-  <div class="container text-center">
-    <img id="copyright" src="imgs/jaydenkimberlincopyright.jpg">
-    <h6 style="color:#ffffff">
-      <script language="JavaScript">
-          document.write(document.lastModified);
-        </script>
-    </h6>
-  </div>
-<!-- Footer End -->
+<!-- Footer -->
+<div class="container text-center">
+  <h6 style="color:white">© Jayden Kimberlin 2017</h6>
+  <h6 style="color:#ffffff">
+  <script language="JavaScript">
+  document.write(document.lastModified);
+  </script>
+  </h6>
+  <h6><a style="color:white;" onclick="Changelog()">Changelog</a></h6>
+</div>
+<!-- End of Footer -->
 </body>
 </html>
