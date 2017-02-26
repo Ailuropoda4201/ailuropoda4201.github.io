@@ -59,10 +59,12 @@
     function play(){
       var audio = document.getElementById("audio");
       var current=
-        localStorage.getItem("clicks");
-        current++;
-        localStorage.setItem("clicks", 0);
+      localStorage.getItem("clicks");
+      // current++;
+      localStorage.setItem("clicks", current);
       audio.play();
+      if(localStorage.getItem("clicks"));
+      document.getElementById("result").innerHTML = localStorage.getItem("clicks");
       if(typeof(Storage) !== undefined) {
         if (localStorage.clicks) {
           localStorage.clicks = Number(localStorage.clicks)+1;
