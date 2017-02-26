@@ -58,6 +58,10 @@
     var clicks = 0;
     function play(){
       var audio = document.getElementById("audio");
+      var current=
+        localStorage.getItem("clicks");
+        current++;
+        localStorage.setItem("clicks", 0);
       audio.play();
       if(typeof(Storage) !== undefined) {
         if (localStorage.clicks) {
