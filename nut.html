@@ -57,14 +57,16 @@
     var clicks = 0;
     function play(){
       var audio = document.getElementById("audio");
-      var current=
-      localStorage.getItem("clicks");
-      // current++;
-      localStorage.setItem("clicks", current);
       audio.play();
+      
       if(localStorage.getItem("clicks"))
       document.getElementById("result").innerHTML = localStorage.getItem("clicks");
       // else
+      var current= localStorage.getItem("clicks");
+      // current++;
+      localStorage.setItem("clicks", current);
+
+
       if(typeof(Storage) !== undefined) {
         if (localStorage.clicks) {
           localStorage.clicks = Number(localStorage.clicks)+1;
