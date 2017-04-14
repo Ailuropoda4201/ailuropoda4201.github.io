@@ -2,6 +2,7 @@
 	padding-top: 0px;
 }
 body {
+	background-image:url(../imgs/background-websiteblank.jpg);
 	background-color: #333333;
 }
 .carousel-inner {
