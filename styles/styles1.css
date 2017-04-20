@@ -49,6 +49,15 @@ body {
 	height: 50px;
 	
 }
+#footer {
+	background-color: black;
+	width:100%;
+	border-radius: 0;
+	opacity: 0.5;
+	position: fixed;
+	bottom: 0;
+}
+
 
 @media only screen and (max-width: 480px) {
    #social {
